@@ -1,5 +1,6 @@
-﻿@model List<SelectedEmployee>
- 
+﻿@using Newtonsoft.Json;
+@model List<SelectedEmployee>
+
 
 <div class="container">
     <div class="row">
@@ -53,4 +54,14 @@
 
 </div>
 
+<div class="container">
+<h4>PIE Chart </h4>
 
+<canvas id="pieChart" width="50" height="50"></canvas>
+</div>
+
+<img src="@Url.Action("GeneratePieChart")" alt="Pie Chart" />
+
+@section scripts {
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+}
