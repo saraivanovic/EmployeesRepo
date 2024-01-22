@@ -3,7 +3,7 @@ using EmployeeApp.Models;
 using Newtonsoft.Json;
 
 namespace EmployeeApp.Controllers
-{
+{ 
     public class HomeController : Controller
     {
 

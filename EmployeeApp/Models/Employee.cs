@@ -1,6 +1,6 @@
 ﻿namespace EmployeeApp.Models
 {
-        public class Employee
+        public class Employee 
         {
 
             public Guid Id { get; set; }
